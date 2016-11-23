@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>某管理系统</title>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<style>
+body{
+	padding-top: 50px;
+}
+ .leftrow{
+        background-color: #f5f5f5;
+        left: 0px;
+        top:0px;
+        bottom: 0px;
+        padding: 20px 0 0 0;
+    }
+	.nav-sidebar > .active > a,
+    .nav-sidebar > .active > a:hover,
+    .nav-sidebar > .active > a:focus {
+        color: #fff;
+        background-color: #428bca;
+    }
+    .page-header{
+    	margin-top: 10px;
+    }
+	.main{
+		margin-top: 10px;
+	}
+	</style>
+
+</head>
+
+<body>
+	<!-- 导航栏 -->
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	    <div class="container-fluid">
+	        <div class="navbar-header">
+	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navlist">
+	                <span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	            </button>
+	            <a class="navbar-brand" href="#">某管理系统</a>
+	        </div>
+	        <div class="collapse navbar-collapse" id="navlist">
+	        	<ul class="nav navbar-nav">
+	        		<li class="active"><a href="#">首页</a></li>
+	        		<li class="dropdown">
+	        			<a href="#" class="dropdown-toggle" data-toggle="dropdown">功能<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">操作1</a></li>
+							<li><a href="#">操作1</a></li>
+							<li><a href="#">操作1</a></li>
+							<li><a href="#">操作1</a></li>
+							<li><a href="#">操作1</a></li>
+							<li><a href="#">操作1</a></li>
+						</ul>
+	        		</li>
+	        		<li ><a href="#">帮助</a></li>
+	        	</ul>
+	        
+		        <form class="nav navbar-form navbar-right" role="login">
+		        	<input type="text" name="" class="form-control" placeholder="用户名">
+		        	<input type="password" name="" class="form-control" placeholder="密码">
+		        	<button type="submit" class="btn btn-default">登录</button>
+		        </form>
+	        </div> 
+	    </div>
+	</div>
+	<!-- 主体 -->
+
+	<div class="container-fluid">
+		<div class="row">
+			<!-- 侧边导航 -->
+			<div class="col-md-2 leftrow">
+				<ul class="nav nav-sidebar">
+					<li class="active" ><a href="#" >首页</a></li>
+					<li class="nav-divider"></li>
+					<li><a href="#" >信息建立</a></li>
+					<li><a href="#" >信息查询</a></li>
+					<li><a href="#" >信息管理</a></li>
+					<li class="nav-divider"></li>
+					<li><a href="#" >设置</a></li>
+					<li><a href="#" >帮助</a></li>
+
+				</ul>
+			</div>
+			<!-- 主内容 -->
+			<div class="col-md-10">
+				<div class="page-header">
+				  <h1>管理控制台</h1>
+				</div>
+				<!-- 标签导航 -->
+				<button type="button" class="btn btn-default">操作1</button>
+				<button type="button" class="btn btn-primary">操作2</button>
+				<button type="button" class="btn btn-success">操作3</button>
+				<button type="button" class="btn btn-info">操作4</button>
+				<button type="button" class="btn btn-warning">操作5</button>
+				<button type="button" class="btn btn-danger">操作6</button>
+				<!-- 表格面板 -->
+				<div class="row main">
+					<div class="col-md-6">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<a class="panel-title">123</a>
+							</div>
+							<div class="panel-body">
+								<ul class="list-group">
+									<li class="list-group-item list-group-item-success"><span><strong>提示</strong>您的订单已经审批通过</span></li>
+								</ul>
+								<ul class="list-group">
+									<li class="list-group-item list-group-item-info"><span><strong>提示</strong>您的订单已经审批通过</span></li>
+								</ul>
+								<ul class="list-group">
+									<li class="list-group-item list-group-item-danger"><span><strong>提示</strong>您的订单已经审批通过</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<a class="panel-title">123</a>
+							</div>
+							<div class="panel-body">
+								<ul class="list-group">
+									<li class="list-group-item list-group-item-success"><span class="badge">12</span>这是一条有徽章的消息</li>
+								</ul>
+								<ul class="list-group">
+									<li class="list-group-item list-group-item-danger"><span class="badge">12</span>这是一条有徽章的消息</li>
+								</ul>
+								<ul class="list-group">
+									<li class="list-group-item list-group-item-warning"><span class="badge">12</span>这是一条有徽章的消息</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<a class="panel-title">123</a>
+							</div>
+							<div class="panel-body">
+								<table class="table table-striped">
+									<tb>
+										<th>#</th>
+										<th>产品</th>
+										<th>数量</th>
+										<th>总金额</th>
+										<th>业务员</th>
+									</tb>
+									<tr>
+										<td>1</td>
+										<td>苹果</td>
+										<td>3</td>
+										<td>5</td>
+										<td>小花</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>苹果</td>
+										<td>3</td>
+										<td>5</td>
+										<td>小花</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>苹果</td>
+										<td>3</td>
+										<td>5</td>
+										<td>小花</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<a class="panel-title">123</a>
+							</div>
+							<div class="panel-body">
+								<label class="label label-primary" >毕业设计</label>
+								<div class="progress" style="margin-top: 10px;">
+									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+								</div>
+								<label class="label label-danger" >结训答辩</label>
+								<div class="progress" style="margin-top: 10px;">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">90%</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
